@@ -1,9 +1,10 @@
 import { createStyles, makeStyles } from '@material-ui/styles';
 import { useTheme } from '@material-ui/core/styles';
+import theme from '../../theme/index';
 
 // ----------------------------------------------------------------------
 
-const useStyles = makeStyles((theme) =>
+const useStyles = makeStyles(() =>
   createStyles({
     '@global': {
       // Tooltip
