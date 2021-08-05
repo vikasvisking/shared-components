@@ -7,7 +7,26 @@
   "author": "Vikas",
   "license": "MIT",
   "dependencies": {
-    "react": "^17.0.2"
+    "@emotion/react": "^11.4.0",
+    "@emotion/styled": "^11.3.0",
+    "@iconify/icons-ant-design": "^1.1.0",
+    "@iconify/icons-eva": "^1.1.0",
+    "@iconify/icons-ic": "^1.1.7",
+    "@iconify/react": "^1.1.4",
+    "@material-ui/core": "^5.0.0-beta.1",
+    "@material-ui/lab": "^5.0.0-alpha.40",
+    "@material-ui/styles": "^5.0.0-beta.1",
+    "@material-ui/utils": "^5.0.0-beta.0",
+    "apexcharts": "^3.27.3",
+    "formik": "^2.2.9",
+    "framer-motion": "^4.1.17",
+    "lodash": "^4.17.21",
+    "prop-types": "^15.7.2",
+    "simplebar": "^5.3.5",
+    "simplebar-react": "^2.3.5",
+    "react": "^17.0.2",
+    "react-router-dom": "^6.0.0-beta.0",
+    "react-helmet-async": "^1.0.9"
   },
   "scripts": {
     "build": "babel src -d build",
