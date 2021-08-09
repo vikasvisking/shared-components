@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Icon } from '@iconify/react';
-import { Link as RouterLink } from 'react-router-dom';
 import arrowIosForwardFill from '@iconify/icons-eva/arrow-ios-forward-fill';
 // material
 import { Box, Stack, Link, Card, Button, Divider, Typography, CardHeader } from '@material-ui/core';
@@ -40,7 +39,7 @@ function NewsItem({ news }) {
         sx={{ width: 48, height: 48, borderRadius: 1.5 }}
       />
       <Box sx={{ minWidth: 240 }}>
-        <Link to="#" color="inherit" underline="hover" component={RouterLink}>
+        <Link to="#" color="inherit" underline="hover">
           <Typography variant="subtitle2" noWrap>
             {title}
           </Typography>
@@ -76,7 +75,6 @@ export default function AppNewsUpdate() {
           to="#"
           size="small"
           color="inherit"
-          component={RouterLink}
           endIcon={<Icon icon={arrowIosForwardFill} />}
         >
           View all
