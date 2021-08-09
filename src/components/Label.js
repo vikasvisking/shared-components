@@ -50,11 +50,11 @@ const RootStyle = styled('span')(({ theme, styleProps }) => {
           ...(variant === 'outlined' && {
             backgroundColor: 'transparent',
             color: theme.palette.text.primary,
-            border: `1px solid ${theme.palette.grey['500_32']}`
+            border: `1px solid ${theme.palette.grey[50032]}`
           }),
           ...(variant === 'ghost' && {
             color: theme.palette.text.secondary,
-            backgroundColor: theme.palette.grey['500_16']
+            backgroundColor: theme.palette.grey[50016]
           })
         })
   };
