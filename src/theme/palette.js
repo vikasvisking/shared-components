@@ -18,14 +18,16 @@ const GREY = {
   700: '#454F5B',
   800: '#212B36',
   900: '#161C24',
-  500_8: alpha('#919EAB', 0.08),
-  500_12: alpha('#919EAB', 0.12),
-  500_16: alpha('#919EAB', 0.16),
-  500_24: alpha('#919EAB', 0.24),
-  500_32: alpha('#919EAB', 0.32),
-  500_48: alpha('#919EAB', 0.48),
-  500_56: alpha('#919EAB', 0.56),
-  500_80: alpha('#919EAB', 0.8)
+  5008: alpha('#919EAB', 0.08),
+  50012: alpha('#919EAB', 0.12),
+  50016: alpha('#919EAB', 0.16),
+  50024: alpha('#919EAB', 0.24),
+  50032: alpha('#919EAB', 0.32),
+  50048: alpha('#919EAB', 0.48),
+  50056: alpha('#919EAB', 0.56),
+  50080: alpha('#919EAB', 0.8),
+  50032: alpha('#919EAB', 0.32),
+  50056: alpha('#919EAB', 0.56)
 };
 
 const PRIMARY = {
@@ -95,16 +97,16 @@ const palette = {
   error: { ...ERROR },
   grey: GREY,
   gradients: GRADIENTS,
-  divider: GREY[500_24],
+  divider: GREY[50024],
   text: { primary: GREY[800], secondary: GREY[600], disabled: GREY[500] },
   background: { paper: '#fff', default: '#fff', neutral: GREY[200] },
   action: {
     active: GREY[600],
-    hover: GREY[500_8],
-    selected: GREY[500_16],
-    disabled: GREY[500_80],
-    disabledBackground: GREY[500_24],
-    focus: GREY[500_24],
+    hover: GREY[5008],
+    selected: GREY[50016],
+    disabled: GREY[50080],
+    disabledBackground: GREY[50024],
+    focus: GREY[50024],
     hoverOpacity: 0.08,
     disabledOpacity: 0.48
   }

@@ -18,7 +18,7 @@ const useStyles = makeStyles(() =>
       '.apexcharts-tooltip-title': {
         border: '0 !important',
         fontWeight: theme.typography.fontWeightBold,
-        backgroundColor: `${theme.palette.grey['500_16']} !important`,
+        backgroundColor: `${theme.palette.grey[50016]} !important`,
         color: theme.palette.text.secondary
       },
       '.apexcharts-xaxistooltip-bottom': {
@@ -178,7 +178,7 @@ export default function BaseOptionChart() {
       radialBar: {
         track: {
           strokeWidth: '100%',
-          background: theme.palette.grey['500_16']
+          background: theme.palette.grey[50016]
         },
         dataLabels: {
           value: LABEL_VALUE,
