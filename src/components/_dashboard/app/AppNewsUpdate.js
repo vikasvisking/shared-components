@@ -15,7 +15,7 @@ import Scrollbar from '../../Scrollbar';
 const NEWS = [...Array(5)].map((_, index) => {
   const setIndex = index + 1;
   return {
-    title: 'Vikas',
+    title: 'Vikas' + index,
     description: 'Teest user',
     image: mockImgCover(setIndex),
     postedAt: new Date()

@@ -9,15 +9,16 @@ export { default as Logo } from './components/Logo';
 export { default as Label } from './components/Label';
 export { default as ColorPreview } from './components/ColorPreview';
 export { default as ColorManyPicker } from './components/ColorManyPicker';
-export { default as DashboardApp } from './components/_dashboard/app';
-export { default as MHidden } from './components/@material-extend';
-
-
-
-
-
-
-
-
-
-
+export { default as MHidden } from './components/@material-extend/MHidden';
+export { default as AppBugReports } from './components/_dashboard/app/AppBugReports';
+export { default as AppConversionRates } from './components/_dashboard/app/AppConversionRates';
+export { default as AppCurrentSubject } from './components/_dashboard/app/AppCurrentSubject';
+export { default as AppCurrentVisits } from './components/_dashboard/app/AppCurrentVisits';
+export { default as AppItemOrders } from './components/_dashboard/app/AppItemOrders';
+export { default as AppNewsUpdate } from './components/_dashboard/app/AppNewsUpdate';
+export { default as AppNewUsers } from './components/_dashboard/app/AppNewUsers';
+export { default as AppOrderTimeline } from './components/_dashboard/app/AppOrderTimeline';
+export { default as AppTasks } from './components/_dashboard/app/AppTasks';
+export { default as AppTrafficBySite } from './components/_dashboard/app/AppTrafficBySite';
+export { default as AppWebsiteVisits } from './components/_dashboard/app/AppWebsiteVisits';
+export { default as AppWeeklySales } from './components/_dashboard/app/AppWeeklySales';
